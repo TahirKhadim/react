@@ -1,0 +1,40 @@
+.my-login-card {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .my-login-card .card-body {
+    padding: 20px;
+  }
+  
+  .my-login-card .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  .my-login-card .form-label {
+    font-weight: bold;
+  }
+  
+  .my-login-card input[type="text"],
+  .my-login-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .my-login-card button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-login-card button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

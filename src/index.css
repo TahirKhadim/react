@@ -1,0 +1,42 @@
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 60px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.quantity-control button {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.quantity-control button:hover {
+  background-color: #080808;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .quantity-input {
+    margin: 5px;
+  }
+}
